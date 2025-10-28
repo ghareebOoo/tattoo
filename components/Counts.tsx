@@ -37,7 +37,7 @@ export default function Counts({myCount , myTitle}:props) {
       <div className="text-2xl font-bold flex flex-col justify-center items-center gap-5">
         <div
           className="w-32 h-32 rounded-full flex items-center justify-center text-xl font-bold"
-          style={{background: `conic-gradient(#111111 ${count * 3.6}deg, white 0deg)`}}
+          style={{background: `conic-gradient(#111111 ${count * 3.6}deg , white 0deg)`}}
         >
           <div className="w-[125px] h-[125px] rounded-full bg-white flex items-center justify-center">{count}%</div>
         </div>
